@@ -173,6 +173,6 @@ function checkGameOver()
         // to access the css by creating or removing the 'classes'
         gameBoard.classList.remove('game');
         gameBoard.classList.add('won');  
-        nextlevel.style.visibility = 'visible';
+        //nextlevel.style.visibility = 'visible';
     }
 }
